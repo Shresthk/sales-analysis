@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50655</QvBuildNo>
+   <CreatorDoc>C:\Users\ani0r\Documents\Qlik\Sense\Apps\Project_Team2.qvf</CreatorDoc>
+   <CreateUtcTime>2022-06-09 11:47:39</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>ordersnine</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Row ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>34</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>170</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order ID</FieldName>
+       <BitOffset>6</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>170</Offset>
+       <Length>125</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Date</FieldName>
+       <BitOffset>11</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>295</Offset>
+       <Length>296</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Priority</FieldName>
+       <BitOffset>73</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>591</Offset>
+       <Length>44</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Quantity</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>22</NoOfSymbols>
+       <Offset>635</Offset>
+       <Length>110</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Sales</FieldName>
+       <BitOffset>26</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>34</NoOfSymbols>
+       <Offset>745</Offset>
+       <Length>302</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Discount</FieldName>
+       <BitOffset>38</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>1047</Offset>
+       <Length>95</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Ship Mode</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>1142</Offset>
+       <Length>29</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Profit</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>34</NoOfSymbols>
+       <Offset>1171</Offset>
+       <Length>306</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Price</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>33</NoOfSymbols>
+       <Offset>1477</Offset>
+       <Length>297</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Shipping Cost</FieldName>
+       <BitOffset>21</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>1774</Offset>
+       <Length>262</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Name</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>18</NoOfSymbols>
+       <Offset>2036</Offset>
+       <Length>261</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Province</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>2297</Offset>
+       <Length>32</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Region</FieldName>
+       <BitOffset>86</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>2329</Offset>
+       <Length>32</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Segment</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>2361</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Category</FieldName>
+       <BitOffset>82</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>2411</Offset>
+       <Length>40</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Sub-Category</FieldName>
+       <BitOffset>69</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>13</NoOfSymbols>
+       <Offset>2451</Offset>
+       <Length>246</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Name</FieldName>
+       <BitOffset>58</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>33</NoOfSymbols>
+       <Offset>2697</Offset>
+       <Length>1360</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Container</FieldName>
+       <BitOffset>76</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>4057</Offset>
+       <Length>68</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Base Margin</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>4125</Offset>
+       <Length>180</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Ship Date</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>4305</Offset>
+       <Length>361</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>34</NoOfRecords>
+   <Offset>4666</Offset>
+   <Length>374</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+   <TableTags></TableTags>
+   <ProfilingData></ProfilingData>
+ </QvdTableHeader>
+ °   ù  û  ü  ﬂ  1  2  U  ∂  ∑  1  Í  d  •  ◊  ı  ˆ  2  3  8  E  Î  ¯  ˘  ç	  ≥	  ÿ	  Ÿ	  ⁄	  @
+  M
+  ¶
+  –
+  ˚
+  Ê  Á
+  ƒ    ‰  ‰  ‚  ¶#  &'  ≈(   1  „1  ‡3  4  ;  C@  £@  dE  †F  ÑG  BJ  ÜJ  «L  'N  'O  11/25/2009 Çú  10/9/2009 1/30/2009 €ú  8/12/2009 3/20/2009 1/15/2009 10/17/2009 11/17/2009 ‚õ  3/4/2009 8/18/2009 √õ  3/3/2009 1/17/2009 æú  9/11/2009 7/16/2009 8/27/2009 7/22/2009 2/18/2009 9/16/2009 6/22/2009 @ú  6/7/2009 7/27/2009 ∂ú  1/11/2009 ú  8/5/2009 11/14/2009 Not Specified High Critical Medium Low    /   1      *            )   %      2   "   (   .   	                     ∏ÖÎQo@=
+◊£pıg@ÆG·zT“µ@
+◊£p=∫@ÆG·zî@·zÆGx@)\è¬ı‡m@\è¬ıh ¬@Ÿ   ÆG·zÇr@ÆG·zXè@fffffﬂ•@\è¬ı(\(@\è¬ı(§â@33333ìR@)\è¬ı›ë@ÖÎQ∏ÖS@{ÆG· |@B`Â–"Ïs@{ÆG·‰è@∏ÖÎQ$†@·zÆGôo@=
+◊£Pùƒ@√ı(\èVõ@33333#Ñ@R∏ÖÎÔí@H·zÆá\@ÕÃÃÃÃ@{@ûÔß∆{¥@R∏Ö;<◊@R∏ÖÎp@ÕÃÃÃÃ›ë@◊£p=
+ßT@33333õ}@ÏQ∏ÖÎ±?    
+◊£p=
+∑?öôôôôôπ?{ÆG·zÑ?{ÆG·z§?∏ÖÎQ∏û?∏ÖÎQ∏Æ?{ÆG·z¥?{ÆG·zî?öôôôôô©?Regular Air Delivery Truck 33333sW@q=
+◊£àm¿\è¬ı(T@\è¬ı(º]@√ı(\èÄ@ÏQ∏ÖÎU@ÆG·zQ¿∏ÖÎQ~õ¿{ÆG·öN¿ˆ(\è¬≈]@ÆG·z¸p@q=
+◊£†ã@
+◊£p=
+¿◊£p=
+Ág¿∏ÖÎQ `¿ÆG·z.h¿ÕÃÃÃÃåE¿q=
+◊£0]¿fffffd¿ÏQ∏Ö3j¿ˆ(\è¬Ew@=
+◊£pM@     aì@§p=
+◊©Ä¿R∏ÖÎQX¿ÖÎQ∏5T¿ˆ(\è¬u/@ÖÎQ∏%W¿ÆG·zÁñ@·zÆßc≈@q=
+◊£02¿ÖÎQ∏s@      G¿q=
+◊£ R@{ÆG·z/@ÖÎQ∏@ÖÎQ∏>^@{ÆG·˙>@H·zÆ«?@ÕÃÃÃÃM@ÖÎQ∏T@ÖÎQ∏ñô@ÏQ∏ÖÎ@ffffff@{ÆG·˙9@fffffO@H·zÆG$@{ÆG·˙/@§p=
+◊£ @H·zÆá>@·zÆG·˙?ÕÃÃÃÃÃ%@ˆ(\è¬ı@)\è¬ı®5@ÖÎQ∏~D@è¬ı(\è>@H·zÆ?v@     Xk@◊£p=
+◊6@è¬ı(\üf@ffffff@{ÆG·∫>@è¬ı(\_@)\è¬ı€ì@q=
+◊£'@ÖÎQ∏ûC@§p=
+◊„M@=
+◊£p=ˆ?
+◊£p=
+@   
+◊£p=
+@◊£p=
+◊ˇ?◊£p=
+◊˜?      @=
+◊£p}8@      @R∏ÖÎQ?{ÆG·z@ÏQ∏ÖÎ@)\è¬ı(@\è¬ı(\*@R∏ÖÎQ@=
+◊£p˝3@ÖÎQ∏˘?◊£p=
+◊@ÖÎQ∏@{ÆG·˙+@{ÆG·z1@ÏQ∏ÖÎ@ˆ(\è¬uM@)\è¬ıhQ@ÖÎQ∏ﬁ0@333333:@   )\è¬ı( @ÏQ∏ÖÎ@ÆG·zî$@Allen Rosenblatt Eugene Barchas Clay Rozendal Ann Chong Barry Weirich Skye Norling Beth Paige Sylvia Foulston Delfina Latchford Don Jones Jim Radford Carlos Soltero Grant Carroll Nicole Hansen Don Miller Brendan Dodson Alan Barnes Bryan Mills Nunavut Northwest Territories Nunavut Northwest Territories Small Business Corporate Home Office Consumer Office Supplies Furniture Technology Envelopes Binders and Binder Accessories Chairs & Chairmats Paper Computer Peripherals Appliances Scissors, Rulers and Trimmers Office Furnishings Labels Pens & Art Supplies Storage & Organization Telephones and Communication Tables #10-4 1/8" x 9 1/2" Premium Diagonal Seam Envelopes Avery Binder Labels Hon Every-Day√Ç¬Æ Chair Series Swivel Task Chairs IBM Multi-Purpose Copy Paper, 8 1/2 x 11", Case Memorex 4.7GB DVD-RAM, 3/Pack Avery Arch Ring Binders APC 7 Outlet Network SurgeArrest Surge Protector High Speed Automatic Electric Letter Opener Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright) Telephone Message Books with Fax/Mobile Section, 5 1/2" x 3 3/16" 3M Office Air Cleaner Acco Smartsocket√¢‚Äû¬¢ Table Surge Protector, 6 Color-Coded Adapter Outlets Staples Wirebound Steno Books, 6" x 9", 12/Pack GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2" x 11" Eldon√Ç¬Æ Wave Desk Accessories Avery 4027 File Folder Labels for Dot Matrix Printers, 5000 Labels per Box, White Newell 323 Crate-A-Files√¢‚Äû¬¢ Bell Sonecor JB700 Caller ID Holmes 99% HEPA Air Purifier Xerox 1893 Surelock√¢‚Äû¬¢ Post Binders Hon 4700 Series Mobuis√¢‚Äû¬¢ Mid-Back Task Chairs with Adjustable Arms BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables Xerox 1982 Global Ergonomic Managers Chair Durable Pressboard Binders Fellowes 17-key keypad for PS/2 interface StarTAC ST7762 Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind Staples 6 Outlet Surge Verbatim DVD-R 4.7GB authoring disc GBC Recycled Regency Composition Covers Small Box Jumbo Drum Small Pack Medium Box Wrap Bag Jumbo Box öôôôôôŸ?ÆG·zÆ◊?{ÆG·z‰?·zÆG·⁄?R∏ÖÎQÿ?öôôôôô·?ÏQ∏ÖÎÈ?
+◊£p=
+◊?ˆ(\è¬ıÿ?      ‡?ÖÎQ∏Ö€?·zÆG·‚?333333„?§p=
+◊£‡?ffffff÷?§p=
+◊£Ë?      Ë?=
+◊£p=‚?è¬ı(\è‚?R∏ÖÎQ‡?11/26/2009 Çú  10/9/2009 øú  10/11/2009 †ú  10/10/2009 áõ  2/1/2009 8/13/2009 8/15/2009 3/22/2009 1/20/2009 10/17/2009 11/18/2009 ‚õ  3/4/2009 8/20/2009 ôú  3/10/2009 1/17/2009 1/19/2009 ‹ú  9/12/2009 7/17/2009 8/29/2009 7/23/2009 2/20/2009 2/18/2009 9/16/2009 6/23/2009 ~ú  6/9/2009 7/28/2009 ‘ú  1/12/2009 $ú  8/6/2009 11/15/2009            A!AÑ!BBÇ!BCc√0cÑÑƒàAÑ$	≈•≈R%∆∆çb¶!ÁGs«6H)!ïÉ hI)!%Iî$hHä1I)äô§(©6À9a-Kù≤,™aBä1Ã°√0kH`MJ´5•–4,aéRÃ9*Â8ÌeœZÌ=.Ù<`–ZB≠A/E`c-F±EP`cBJ“0&Ip3hSkaNSï6M±0bîsãRT¢CQr`’{ØVï$WU3 aÑ–Zñ4aYTuÑÒ^Wµw]ïQuXåcX9Ñavbôî%gŸúïeWu⁄∞hö¢i" a€Soõ∏mÅ i‹bs\å»qciù„u]0◊u8`^•î{û=Èyπaü≠ï|ﬂ¡˘}ö"i‡µÇ ∂A;A`!æ±á°FÇ<`

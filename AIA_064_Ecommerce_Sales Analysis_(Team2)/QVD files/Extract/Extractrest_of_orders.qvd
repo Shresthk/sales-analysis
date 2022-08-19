@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50655</QvBuildNo>
+   <CreatorDoc>C:\Users\ani0r\Documents\Qlik\Sense\Apps\Project_Team2.qvf</CreatorDoc>
+   <CreateUtcTime>2022-06-09 11:48:20</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>rest_of_orders</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>Row ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>140</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>700</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order ID</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>95</NoOfSymbols>
+       <Offset>700</Offset>
+       <Length>475</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Date</FieldName>
+       <BitOffset>57</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>92</NoOfSymbols>
+       <Offset>1175</Offset>
+       <Length>1160</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Priority</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>2335</Offset>
+       <Length>44</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order Quantity</FieldName>
+       <BitOffset>39</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>46</NoOfSymbols>
+       <Offset>2379</Offset>
+       <Length>230</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Sales</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>140</NoOfSymbols>
+       <Offset>2609</Offset>
+       <Length>1252</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Discount</FieldName>
+       <BitOffset>99</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>3861</Offset>
+       <Length>104</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Ship Mode</FieldName>
+       <BitOffset>104</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>3965</Offset>
+       <Length>42</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Profit</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>140</NoOfSymbols>
+       <Offset>4007</Offset>
+       <Length>1260</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unit Price</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>115</NoOfSymbols>
+       <Offset>5267</Offset>
+       <Length>1035</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Shipping Cost</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>106</NoOfSymbols>
+       <Offset>6302</Offset>
+       <Length>918</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Name</FieldName>
+       <BitOffset>45</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>45</NoOfSymbols>
+       <Offset>7220</Offset>
+       <Length>655</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Province</FieldName>
+       <BitOffset>110</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>7875</Offset>
+       <Length>32</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Region</FieldName>
+       <BitOffset>111</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>7907</Offset>
+       <Length>32</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Customer Segment</FieldName>
+       <BitOffset>106</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>7939</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Category</FieldName>
+       <BitOffset>108</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>7989</Offset>
+       <Length>40</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Sub-Category</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>17</NoOfSymbols>
+       <Offset>8029</Offset>
+       <Length>305</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Name</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>133</NoOfSymbols>
+       <Offset>8334</Offset>
+       <Length>4746</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Container</FieldName>
+       <BitOffset>75</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>13080</Offset>
+       <Length>79</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Product Base Margin</FieldName>
+       <BitOffset>51</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>35</NoOfSymbols>
+       <Offset>13159</Offset>
+       <Length>311</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Ship Date</FieldName>
+       <BitOffset>92</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>113</NoOfSymbols>
+       <Offset>13470</Offset>
+       <Length>1420</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>14</RecordByteSize>
+   <NoOfRecords>140</NoOfRecords>
+   <Offset>14890</Offset>
+   <Length>1960</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+   <TableTags></TableTags>
+   <ProfilingData></ProfilingData>
+ </QvdTableHeader>
+    1   2   P   U   V   a   b   g   k      €   †   ‡   •       ¯   °   Ë   Ì   Õ   Ö   å   ç   ù   ú      J  L  j  k  }  –  ¸  ×    A  ^        Ÿ     Ş  ó      5  6  G  _  `    ¼  Ã  Ä  Å  Æ  Ü  ù  ‚  „  …  µ  Ê  Ë  Ì  Í  Î  ë        9  Z  [  \  ±  ¶  ·  ×  Ø  é      5  6  :  w  x  ‹  Œ  ®  ¶  ¿  Ñ  ê  ë      ?  y  ˆ  ‰  Š  º  »  İ  
+      B  C  D  Q  R  q    ¡  ¢  ­  Æ  Ç  é  ö  ÷  	  	  	  	  *	  +	  O	  P	  b	  ·	  ¹	  º	  »	  7
+     %  ã    e  ƒ  ¦  '  d  ¥  ã  ‚  @  „      ¦  á     ã  å  ä	  G
+  Å
+        Ä  D  $    D  ¤  !  Á  ç  %  €  &  ‡    D  F  Æ    Ç   ã   "  ##  §#  %%  #&  Ç&  )  ')  %*  '*  Á*  +  Â+  À,  Ä,  ç,  ¥.  @/  0  @0  ƒ0  Å0   1  2  "4  †5  ã5  $7  $8  †9  ã9  ;  e;  ç<  #>  A>  §>  A?  '@  ¡@  BA  eA  $B  ƒC  †C  D  ÁF  àF  ÇI  10/13/2010 ÖŸ  10/1/2012 wŸ  7/10/2011 8/28/2010 6/17/2011 3/24/2011 2/26/2010 11/23/2010 §   6/8/2012 /   8/4/2012 5/30/2011 2/14/2012 4/15/2012 C  3/12/2010 UŸ  3/9/2011 û  5/6/2011 12/23/2010 Ñ  11/8/2010 10/21/2012 `  1/1/2011 zŸ  10/10/2011 9/23/2010 7/19/2011 ñ  12/9/2010 «   10/8/2012 ğŸ  5/2/2012 É  3/8/2010 5/28/2011 9/19/2010 8/31/2011 :Ÿ  7/8/2011 ¢   1/8/2012 4/29/2010 12/31/2011 ¸Ÿ  11/12/2011 1/20/2012 7/21/2012 !¡  6/12/2012 R  6/4/2010 2/18/2010 11/16/2011 Ÿ  8/7/2011 Ì  6/8/2010 8/28/2011 9/29/2011 ,   5/4/2012 5/17/2011 Œ   10/7/2012 8/13/2011 8/16/2011 11/16/2010 5/27/2011 8/23/2010 8/19/2011 	   1/3/2012 11/29/2012 3/17/2012 D  4/12/2010 8/24/2010 À  7/4/2011 6/24/2010 9/19/2012 12/24/2011 3/23/2012 10/15/2011 ¯  8/7/2010 ç  2/9/2010 8/30/2010 11/15/2012 yŸ  9/10/2011 tŸ  4/10/2011 \Ÿ  10/9/2011 10/23/2012 1/25/2010 1/27/2011 3/17/2011 j   6/6/2012 “Ÿ  4/11/2011 o   11/6/2012 5/16/2012 Ä   4/9/2012 M   8/5/2012 ê  5/9/2010 6/27/2012 9/30/2010 4/15/2010 9/14/2011 9/21/2010 8/17/2010 8/28/2012 Ÿ  6/7/2011 v  12/5/2010 Low High Not Specified Medium Critical    1                     ,   -             .            !            '            	   2         (   )      #   *   $   "            0      %         
+   /   q=
+×£Xp@ö(\‚ÅÃ@
+×£p=’n@P—nÂe³@¸…ëQ¤x@®GázVb@Ãõ(\bW@q=
+×£HŒ@q=
+×£»¥@…ëQ¸l@33333›h@¤p=
+×#_@…ëQ¸f†@¸…ëQ	—@×£p=
+'T@)\Âõ]œ@®Gá:n±@ƒÀÊ¡E¾„@¬Zd;Š@ğ§ÆK×a£@¤p=
+×ƒM@…ëQ¸^X@áz®Gı@š™™™™9T@Âõ(\ÏP@
+×£p~Ç@Ház®'w@  Ãõ(\jŠ@…ëQ¸¡q@;ßO— z@)\ÂõÙ@R¸…ëÄ«@\ÂõèÇË@®GázTE@…ëQ¸µz@ƒÀÊ¡E¢‰@…ëQ¸…-@33333cV@ú~j¼4è’@Ãõ(\zg@ìQ¸…ËH@ªñÒM°@q=
+×£°M@®GáztH@®Gáz¾]@d;ßOïN@¤p=
+×¤®@3333s›@)\Âõj@Âõ(\ïo@
+×£p=J`@ö(\Â…s@…ëQ¸B{@áz®G	a@     }”@áz®G@…ëQ¸`Š@33333ü¸@\Âõ(~‡@{®GáÊ“@q=
+×£ w@33333c@)\Âõª@)\Âõ(8@=
+×£píp@Âõ(Ü{ª@ö(\Â¥p@
+×£p=ZV@
+×£p=ŞŸ@\ÂõèÇÇ@=
+×£pMY@Ãõ(\Æ˜@¸…ëQf@¸…ë/²@ÍÌÌÌÌ³Ã@¸…ëQ ™@-²ïj¸@×£p=
+·Š@áz®GT@q=
+×£Hs@…ëQ¸	y@š™™™H’@Âõ(ÜD´@)\Âõ<u@š™™™™¿—@Âõ(\Y@ìQ¸…-@®GázDR@š™™™G²@áz®—I¿@\Âõ¨Q²@¸…ëÑ–§@®GáznB@HázŞÕ@Ãõ(\Oµ@{®G± Õ@\Âõ(è„@…ëQx±´@33333ÓW@=
+×£pÅp@Ñ   …ëQ¸U@Ãõ(\2q@)\Âõ[”@ÍÌÌÌÌD@33333–@Âõ(œæ´@R¸…ëms@
+×£p]³Á@fffffÀ˜@áz®G¹q@…ëQ¸^µ@š™™™™‰T@Âõ(\ı±@×£p=
+f›@=
+×£p¥z@ö(\Âµœ@×£p=
+ws@ÍÌÌÌÌôj@Ház®G^@33333Ãr@)\Â5S•@…ëQ¸`@\Âõ(|I@ö(\Âõ@{®Gá^@…ëQ¸^2@şÔxéÆ¸@×£p=
+¿c@{®Gáb@
+×£p=Ê_@…ëQ¸`µ@Ház®Jœ@®GázÌƒ@\Âõ(è©@Ãõ(\âi@)\ÂõHm@‰A`åÏ›@ÓMbX­e@{®Gáz¤?ìQ¸…ë±?{®Gáz„?{®Gáz´?š™™™™™©?¸…ëQ¸?
+×£p=
+·?    {®Gáz”?      Ğ?¸…ëQ¸®?š™™™™™¹?Regular Air Delivery Truck Express Air      ¨jÀ)\Âõœ|@{®GáZG@{®Gá»’@q=
+×£ğ>@¸…ëQ¸@…ëQ¸KÀÍÌÌÌÌì_@®Gázº…ÀìQ¸…KlÀ33333ÛdÀ)\Âõ¨,À×£p=
+×`@=
+×£p\@áz®GáÀáz®Gwˆ@ìQ¸…‹{@q=
+×£~À\Âõ(\'Àáz®G™s@ìQ¸…ë:@®GázÀ\Âõ(œeÀ
+×£p=
+@š™™™™™@{®GáÀÍÌÌÌÌÌÀö(\ÂÕD@ö(\ÂÕ@@¸…ëQ€a@=
+×£p½SÀ…ëQ¸•o@×£p=
+˜›À=
+×£pÀª@)\Âõ¨'ÀÍÌÌÌÌ,J@fffff†fÀ…ëQ¸õ?
+×£p=zwÀ     ZÀ=
+×£p}U@Ãõ(\Â Àö(\Ân‘@ffffffÀ)\Âõ(À¸…ëQ¸®¿
+×£p=*IÀfffff.vÀ\Âõ(°pÀ
+×£p=
+@Ãõ(\2]ÀR¸…ëÑPÀ®GázT3Àq=
+×£¨aÀR¸…ëQSÀ×£p=
+wy@¸…ëQ$uÀHáz®GJ@)\Âõ¸@33333v@ö(\ÂÅpÀ)\Âõ˜Q@Ház®§UÀ¤p=
+×uŠÀš™™™™ @áz®GSÀìQ¸…‡@)\ÂõègÀ=
+×£p}5À¤p=
+×—tÀÍÌÌÌL¦@
+×£p=
+@33333†@¸…ëQÈR@®GázêpÀ3333³vª@
+×£p=ŠTÀö(\Â5?@R¸…ëFÀHáz®Gé¿{®GáS@×£p=
+WW@áz®Gá@R¸…ë±x@ö(\ÂåS@R¸…ëõx@…ëQ¸åB@fffffbÀáz®GDÀáz®Gá[@ÍÌÌÌÌ8¢@{®Ga ¡@33333Ô“@)\Âõh@Àq=
+×#Ê´@R¸…ë±@×£p=
+²“@®Gázè“Àö(\ÂİcÀ®Gáz®=@Ãõ(\nÀ¤p=
+×£(@…ëQ¸Å]ÀÍÌÌÌÌ¬E@R¸…ë@R¸…ë0ÀÂõ(\/d@ÍÌÌÌÌŒÀ{®Gáz5ÀÃõ(\e¨@ìQ¸…ã}Àö(\Âu,À¸…ëQ¦@R¸…ëQÀ®Gáz2…@×£p=
+wc@R¸…ëaR@q=
+×£–À®Gáz„R@¸…ëQXS@®Gáz´]À¤p=
+×£@ö(\ÂõfÀq=
+×£KÀÍÌÌÌÌÌ@{®GázÀq=
+×£\À=
+×£p=À¸…ëQf@q=
+×£0EÀÂõ(\?^ÀÃõ(\Â)@Ház® ¦À)\Âõî€À¤p=
+×ÛcÀÃõ(\€À
+×£p=z`À{®GáZPÀ=
+×£pEoÀ{®Gá:2@¸…ëQxC@…ëQ¸j@áz®Ga!@Ház®h@Ház®Ç5@Âõ(\@333333@áz®GaE@®GázDa@ìQ¸…ë@…ëQ¸@š™™™™™@=
+×£pıG@…ëQ¸@R¸…ëñC@…ëQ¸>Y@Ház®×Q@Âõ(\P@Ház®c@…ëQ¸…@×£p=
+×@{®Gáú/@
+×£p=
+@¸…ëQ¸@¤p=
+×|@ö(\Âõ*@R¸…ëQ@…ëQ¸~D@=
+×£p=@=
+×£pı4@{®GázD@ÍÌÌÌÌüW@Ház®O@\Âõ(\@¸…ëQø2@Âõ(\ÿ\@ìQ¸…ë@Âõ(\_@      @Âõ(\(@×£p=
+×@ÍÌÌÌÌL#@ö(\Âõ@…ëQ¸W@Âõ(\U@ö(\Âõ&@ìQ¸…ë@fffff&<@ÍÌÌÌÌÌ%@=
+×£p½C@{®Gáú3@33333Cq@×£p=
+W/@Ház®Ïr@…ëQ¸>T@®Gázş?33333“Y@=
+×£p=ş?Ház®wq@Ház®t@®GáztH@…ëQ¸…@Âõ(\Ÿa@Ãõ(\Bk@=
+×£p}I@ö(\Âap@=
+×£pı@@)\Âõ(ü?×£p=
+×3@Âõ(\ÿW@R¸…ëÁ[@®Gáz´E@ö(\ÂUZ@{®GáJb@ffffff/@áz®Gif@Ház®i@š™™™™Ih@®Gáz>^@=
+×£p=@®GázH@=
+×£pUl@¤p=
+×?@{®Gáú4@Ház®ïp@¸…ëQ¸A@®Gáz®&@{®Gáú>@…ëQ¸EA@Âõ(\_e@33333ó4@Âõ(\ïi@R¸…ëM@fffff.b@®Gáz®@Âõ(\n@=
+×£pıC@)\Âõ()@
+×£p=JH@Âõ(\#@q=
+×£p(@=
+×£pıE@áz®GaA@…ëQ¸şK@¤p=
+×£@q=
+×£p@\Âõ(¼D@=
+×£p=@×£p=
+×6@…ëQ¸@ÍÌÌÌÌÌ@Ãõ(\@•@¸…ëQø4@Âõ(\_`@Ház®G<@#   áz®GQ@ìQ¸…ë@ìQ¸…ë@Ãõ(\Â@ÍÌÌÌÌÌ@áz®Gá@áz®Gá@)\Âõ¨ @¸…ëQ¸@   áz®Gá@R¸…ëQ@¸…ëQ8:@E   
+×£p=
+@{®Gáú!@      à?ffffffæ?\Âõ(\*@Ãõ(\Âí?1   
+×£p=
+@¸…ëQ¸ò?=
+×£pı3@\Âõ(\ß?      @×£p=
+×ÿ?fffff–R@   ×£p=
+×@Âõ(\"@Ãõ(\Â@áz®Gá@Ãõ(\Â@…ëQ¸@®GázÎC@®Gáz®ï?¸…ëQ¸@š™™™™™@q=
+×£p@×£p=
+×@q=
+×£°L@{®Gáú$@=
+×£p}8@=
+×£p=ö?…ëQ¸.P@áz®Gá@…ëQ¸@×£p=
+×÷?q=
+×£p@Ãõ(\B5@áz®Ga @R¸…ëQè?š™™™™yM@×£p=
+×@=
+×£p=@=
+×£p½J@Âõ(\2@      @…ëQ¸^O@ffffff@®Gáz@Ház®G!@     àE@     €&@ö(\Â5=@)\Âõ( @®Gáz'@q=
+×£p@{®Gáú @{®Gáú+@)\Âõ(<@¤p=
+×ƒJ@2   …ëQ¸…ó?Ãõ(\Â!@      @
+×£p=
+@\Âõ(\@Ãõ(\B'@q=
+×£p-@…ëQ¸>N@   ®GázNB@š™™™™Ù1@ìQ¸…ëñ?)\Âõ¨E@ffffff"@¤p=
+×£@®GázK@ÍÌÌÌÌÌ@q=
+×£p @   Ház®G@\Âõ(\ç?…ëQ¸õ?š™™™™A@333333ó?333333@…ëQ¸Ş0@®Gáz. @ö(\Âõø?ffffff-@   ®Gáz®@Muhammed MacIntyre Barry French Clay Rozendal Carlos Soltero Carl Jackson Monica Federle Dorothy Badders Neola Schneider Carlos Daly Claudia Miner Sylvia Foulston Jim Radford Carl Ludwig Don Miller Annie Cyprus Grant Carroll Alan Barnes Jack Garza Julia West Edward Hooks Brad Eason Nicole Hansen Dorothy Wardle Aaron Bergman Don Jones Frank Price Michelle Lonsdale Joy Bell Skye Norling Adrian Hane Andrew Gjertsen Ralph Knight Barry Weirich Beth Paige Bryan Davis Doug Bickford Jamie Kunitz Anthony Johnson Allen Rosenblatt Brendan Dodson Hunter Glantz Eugene Barchas Beth Thompson Thomas Seio Becky Castell Nunavut Northwest Territories Nunavut Northwest Territories Small Business Consumer Corporate Home Office Office Supplies Technology Furniture Storage & Organization Appliances Binders and Binder Accessories Telephones and Communication Office Furnishings Paper Rubber Bands Computer Peripherals Bookcases Tables Labels Pens & Art Supplies Copiers and Fax Chairs & Chairmats Envelopes Office Machines Scissors, Rulers and Trimmers Eldon Base for stackable storage shelf, platinum 1.7 Cubic Foot Compact "Cube"" Office Refrigerators" Cardinal Slant-DÃ‚Â® Ring Binder, Heavy Gauge Vinyl R380 Holmes HEPA Air Purifier G.E. Longer-Life Indoor Recessed Floodlight Bulbs Angle-D Binders with Locking Rings, Label Holders SAFCO Mobile Desk Side File, Wire Frame SAFCO Commercial Wire Shelving, Black Xerox 198 Xerox 1980 Advantus Map Pennant Flags and Round Head Tacks DS/HD IBM Formatted Diskettes, 200/Pack - Staples Wilson Jones 1" Hanging DublLockÃ‚Â® Ring Binders" Ultra Commercial Grade Dual Valve Door Closer Hon 4-Shelf Metal Bookcases Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table g520 LX 788 Avery 52 Plymouth Boxed Rubber Bands by Plymouth GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2" x 11""" Newell 335 SANFORD Liquid AccentÃ¢â€Â¢ Tank-Style Highlighters Canon PC940 Copier Tenex Personal Project File with Scoop Front Design, Black Col-EraseÃ‚Â® Pencils with Erasers White Dual Perf Computer Printout Paper, 2700 Sheets, 1 Part, Heavyweight, 20 lbs., 14 7/8 x 11 Self-Adhesive Address Labels for Typewriters by Universal Accessory37 Fuji 5.2GB DVD-RAM Bevis Steel Folding Chairs Global TroyÃ¢â€Â¢ Executive Leather Low-Back Tilter XtraLifeÃ‚Â® ClearVueÃ¢â€Â¢ Slant-DÃ‚Â® Ring Binders by Cardinal Computer Printout Paper with Letter-Trim Perforations   6160 Avery 49 Hoover PortapowerÃ¢â€Â¢ Portable Vacuum Timeport L7089 Avery 510 Xerox 1881 Unpadded Memo Slips Eldon ExpressionsÃ¢â€Â¢ Desk Accessory, Wood Pencil Holder, Oak Bell Sonecor JB700 Caller ID Deflect-o RollaMat Studded, Beveled Mat for Medium Pile Carpeting Accessory4 Personal CreationsÃ¢â€Â¢ Ink Jet Cards and Labels Xerox 1966 Xerox 213 Boston Electric Pencil Sharpener, Model 1818, Charcoal Black Crate-A-FilesÃ¢â€Â¢ 80 Minute CD-R Spindle, 100/Pack - Staples Bush Westfield Collection Bookcases, Dark Cherry Finish, Fully Assembled 12-1/2 Diameter Round Wall Clock SAFCO Arco Folding Chair #10 White Business Envelopes,4 1/8 x 9 1/2 Global Leather and Oak Executive Chair, Black Xerox 1936 Xerox 214 Carina Double Wide Media Storage Towers in Natural & Black StaplesÃ‚Â® General Use 3-Ring Binders Xerox 1904 Luxo Professional Combination Clamp-On Lamps Xerox 217 Revere Boxed Rubber Bands by Revere Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units Hon 4070 Series PagodaÃ¢â€Â¢ Round Back Stacking Chairs Xerox 1887 Xerox 1891 Avery 506 Bush Heritage Pine Collection 5-Shelf Bookcase, Albany Pine Finish, *Special Order Lifetime AdvantageÃ¢â€Â¢ Folding Chairs, 4/Carton Microsoft Natural Multimedia Keyboard Bevis Boat-Shaped Conference Table LindenÃ‚Â® 12" Wall Clock With Oak Frame" Newell 326 Prismacolor Color Pencil Set Xerox Blank Computer Paper 600 Series Flip Fellowes Recycled Storage Drawers Satellite Sectional Post Binders Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting Avery 487 Bevis Round Conference Table Top & Single Column Base Hanging Personal Folder File Bevis Round Conference Table Top, X-Base   5125 Electrix Halogen Magnifier Lamp Canon BP1200DH 12-Digit Bubble Jet Printing Calculator Fellowes Black Plastic Comb Bindings Polycom ViewStationÃ¢â€Â¢ Adapter H323 Videoconferencing Unit Hon GuestStacker Chair Sharp AL-1530CS Digital Copier Tennsco Lockers, Gray Global Enterprise Series Seating High-Back Swivel/Tilt Chairs Spiral Phone Message Books with Labels by Adams Xerox 224 Xerox 1906 Xerox 188 Xerox 1932 GBC Linen Binding Covers GBC Recycled Grain Textured Covers Sauder Facets Collection Library, Sky Alder Finish Fellowes Basic 104-Key Keyboard, Platinum Kensington 7 Outlet MasterPiece Power Center with Fax/Phone Line Protection O'Sullivan 3-Shelf Heavy-Duty Bookcases Panasonic KX-P1150 Dot Matrix Printer Newell 327 Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back Eldon Radial Chair Mat for Low to Medium Pile Carpets DAX Copper Panel Document Frame, 5 x 7 Size O'Sullivan 2-Shelf Heavy-Duty Bookcases Memorex Slim 80 Minute CD-R, 10/Pack Aluminum Document Frame Memorex 80 Minute CD-R Spindle, 100/Pack Multi-Use Personal File Cart and Caster Set, Three Stacking Bins Accessory36 Xerox 20 ColorificÃ‚Â® Watercolor Pencils *Staples* vLetter Openers, 2/Pack Eldon EconocleatÃ‚Â® Chair Mats for Low Pile Carpets Prang Drawing Pencil Set T39m Xerox 1982 Xerox 1924 Turquoise Lead Holder with Pocket Clip Okidata ML395C Color Dot Matrix Printer Microsoft Internet Keyboard Office Star - Contemporary Task Swivel chair with 2-way adjustable arms, Plum Xerox 1971 Eldon Portable Mobile Manager Accessory6 Accessory21 Large Box Jumbo Drum Small Box Medium Box Small Pack Wrap Bag Jumbo Box š™™™™™é?Âõ(\â?ö(\ÂõØ?      à?®Gáz®×?R¸…ëQØ?    š™™™™™Ù?ö(\Âõà?¸…ëQ¸æ?333333ã?Ãõ(\Âå?áz®Gáâ?ìQ¸…ëá?Ház®Gá?
+×£p=
+×?ìQ¸…ëé?š™™™™™á?=
+×£p=â?ffffffÖ?q=
+×£på?333333ë?ö(\Âõè?\Âõ(\ß?Âõ(\ê?ÍÌÌÌÌÌä?\Âõ(\ç?      è?)\Âõ(Ü?…ëQ¸…ã?®Gáz®ç?¤p=
+×£è?®Gázæ?…ëQ¸…Û?¤p=
+×£à?10/20/2010 õŸ  10/2/2012    10/3/2012 ´Ÿ  7/12/2011 8/30/2010 6/17/2011 6/18/2011 3/25/2011 2/26/2010 11/24/2010 Æ   6/9/2012 ä   6/10/2012 /   8/4/2012 5/31/2011 2/16/2012 4/22/2012 4/19/2012 3/14/2010 ’Ÿ  3/11/2011 l   8/6/2012 Ÿ  5/7/2011 12/25/2010 11/13/2010 10/22/2012 ›  1/3/2011 ™Ÿ  10/11/2011 9/25/2010 7/19/2011 .  12/11/2010 è   10/10/2012    5/3/2012 É  3/8/2010 5/30/2011 9/21/2010 h  9/1/2011 ‡  9/2/2011 wŸ  7/10/2011 1/13/2012 ÷œ  5/1/2010 	   1/3/2012 11/19/2011 1/20/2012 7/28/2012 7/25/2012 6/15/2012 Ì  6/8/2010 2/19/2010 11/18/2011 —Ÿ  8/11/2011 ë  6/9/2010 8/29/2011 i  10/1/2011 9/30/2011 ¦   5/8/2012 5/18/2011 5/19/2011 ·Ÿ  10/12/2011 «   10/8/2012 Œ   10/7/2012 8/16/2011 8/17/2011 11/17/2010 5/29/2011    6/3/2011 8/24/2010 8/21/2011 F   1/5/2012 11/30/2012 3/18/2012 4/19/2010 8/26/2010 Ş  7/5/2011 6/25/2010 9/19/2012 9/21/2012 12/28/2011 3/24/2012 10/17/2011 Î  8/8/2010 ç  2/9/2010 $  2/11/2010 8/31/2010 11/20/2012 9/14/2011 4/13/2011 “Ÿ  4/11/2011 zŸ  10/10/2011 10/25/2012 ¢   1/8/2012 1/27/2010 1/26/2010 1/29/2011 1/27/2011 3/19/2011 3/18/2011 §   6/8/2012 é   11/10/2012 11/15/2012 5/17/2012 ¡  4/11/2012 Š   8/7/2012 '  5/11/2010 6/28/2012 6/29/2012 üœ  10/1/2010 4/16/2010 4/15/2010 9/15/2011 9/22/2010 8/19/2010 8/30/2012 XŸ  6/9/2011 ³  12/7/2010                	!!B ‚Ac0b@ƒb "¤@ $ƒ(ÂP(„ƒ0à`0…¢0
+ p
+				Ä(	
+
+
+
+‡ä8
+%‘å@+F‘  8ˆI"g± 	&!BÀ@ Šæ@+„Ñ(,DQ4¨á -GYÉáH,faãñPŒg	h(*Yb *F!ˆ!b"Y¡i)K21Éq)‹BQ‘‰) 	¬Rj`"Àb“ài$*ër ”¢y&ƒQ•
+*(*“)‚()C“!Š* g£   —J’,³	)!!! ˜aR. 
+­Ã1%"""!™‹š0!ÂÓQ ###"š¢"2"åã9 $$$#Ì’4#Có9%%%$œëz6*&&&%lQ8$¡R'''&Ç	:%$((('Í!:&*2*)))(Í):'%4
+***Á	:"+++Î<B@Z,,,) ›>((ET---*!#‹@)ä`2(...+"LSB*ct:///,#d£D+„„,000-£i«D,(£„
+111.$‚{F-Å”
+222/¥îyH.å¤3330¥ç!H.µ
+4441&§“J/$Â
+
+5552§ÎcL0 Õ666¨ç+NÂà"7773)ÅrP1"gó:8884©Ë²P2Hõ2)9995)ÏºP2dõ(:::6ªã1R3 C(;;;7+,T4®#<<<8¬OiV5	Í%)===9-¢*X2å5>>>:-«"X.F[ ???;®®‚Z6  P; @@@<¯+$\7"fAAA=//|\.Ef[ÆBBB>/0d\8dfæCCC?¯0$\.…fÄDDD@¯&Ä\9)¦vÄEEEA0N(: €ÊFFFB1q“^;
+Í–CíGGGC±k#^"å–[ÎHHHD1e+^<§CÌIIIE2`=*²ÈJJJF3åÉb>1(Ç;éKKKG3ä‘b?MÇèLLLH³ñÑb@gÇ3ÚMMMI4rÜdA2‰×éNNNJµiŒfBã3èOOOKµflfC(Kò3ÈPPPL6†ähD*«<ÊQQQM·²,j2Å$ÀRRRN8ó“lE"ÔSSSO¹Ó´nFà7\ÀTTTP:pGB@$ÈUUUQ;fìrH „U4èVVVR¼(t*b4ÌWWWS=àÌvI1	x<éXXXT¾TxJ ˆÈYYYU>”ôxK4Iˆ$éZZZV¿FczLc˜DÜ[[[W?IczM„¨ì\\\XÀé||N¯¸Ø]]]YÁ~OÂÈÈ^^^ZBC)€PïØTØ___[C+e‚Qéí```\Ddx„R ŒõTĞaaa]Dj°„S 	EÁbbb^Ebù†TMEéccc_Åry†$,e=Èddd`Fd$ˆ.…)5ÈeeeaGà)ŠU¥9ÀfffÈ ŒbBÀgggbH	xŒVÅI%ÂhhhcÈ(ŒUåYEÀiiidIu$Wš1ÀjjjeÉp$X"j5ÀkkkfÊQ‘Y4Hz5élllgKæS>ZgŠÔmmmhÌ“ˆ’[¡”5ÌnnniLè’\2ˆªíoooÍĞ ”"¤°-ìpppjÍÊh”]
+¯ÊUİqqqkMĞ”^*Ëº-ÌrrrlÎGŠ–_íÚEésssmÎPÊ–`,ëEètttnÏ…
+™a$û=àuuuoPq›b1HKívvvpQ¥c gØwwwqÑµˆœd dêxxxrÒMãe!g#^ÜyyysS,“ f€;>ÈzzztS2Ã g"£;Ø{{{uTB$¢.ÅK&È|||vUvh¤h*ë[6À}}}wUuÀ¤i*\À~~~xÖVÕ¦j)$l.èyV@¦k)KlÈ€€€zÖ@¦c|Ú{W ¨l…ŒÀ‚‚‚|Øixªm¥œ6Äƒƒƒ}Ør«n,Ë¬6Ä„„„~ÙÏ`¬o
+ï¼Vİ………^Zø®T	MÉ6á†††Û°°pg×6Ğ‡‡‡€\µ²q
+íåˆˆˆİÓ:´
+%ı6È‰‰‰‚]Ì
+´ràø6ÈŠŠŠƒ]Ï´g$£û6Ø‹‹‹„ŞL ¶*£?Ø
